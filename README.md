@@ -21,3 +21,5 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Simple list of the process</h2>
 https://docs.google.com/document/d/1Vt_7J-pIDgak1rJRqa6X9Lf3RJO6yjFo/edit?usp=sharing&ouid=113230259462418910579&rtpof=true&sd=true
+
+![image](https://github.com/user-attachments/assets/911223a0-a957-422d-afca-da982a73f497)
