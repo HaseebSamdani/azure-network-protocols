@@ -37,10 +37,19 @@ Step 4: In the Azure portal, open up the Network Security Group in the Ubuntu VM
 
 ![image](https://github.com/user-attachments/assets/0c24583d-32b3-477e-acb7-27c048cb0243)
 ![image](https://github.com/user-attachments/assets/e8af99a9-6c90-4e58-98aa-3eb87c954d82)
-
-Step 5: In the Azure portal, open up the Network Security Group in the Ubuntu VM and create an inbound security rule that disables incoming ICMP traffic. Go back to Powershell in VM-1. You should see Request timed out message within Powershell. Once you delete the inbound rule You should see the ICMP traffic again.
-
 ![image](https://github.com/user-attachments/assets/d944a07a-6778-46ee-853d-ec01ee361982)
+
+Step 5: Now filter for SSH traffic. From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address).Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark. Exit the SSH connection by typing ‘exit’ and pressing [Enter]
+
+![image](https://github.com/user-attachments/assets/9f577794-0c0f-4ec3-9ec1-3af61a4e18cb)
+
+Step 6: Now filter for DHCP traffic from your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew). Observe the DHCP traffc appearing in WireShark
+
+
+Step 7: Now filter for DNS traffic. From your Windows 10 VM within a command line, use nslookup to see google.com IP addresses. Observe the DNS traffic being show in WireShark.
+
+![image](https://github.com/user-attachments/assets/a036bc76-8aa3-4f06-b811-7a663e56adb0)
+
 
 
 
