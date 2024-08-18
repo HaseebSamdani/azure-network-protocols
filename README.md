@@ -35,8 +35,9 @@ Step 3: Perpetually ping VM-2 by using the ping command, and then typing the pri
 
 Step 4: In the Azure portal, open up the Network Security Group in the Ubuntu VM and create an inbound security rule that disables incoming ICMP traffic. Go back to powershell in VM-1. You should see Request timed out message within Powershell.
 
-![image](https://github.com/user-attachments/assets/e8af99a9-6c90-4e58-98aa-3eb87c954d82)
 ![image](https://github.com/user-attachments/assets/0c24583d-32b3-477e-acb7-27c048cb0243)
+![image](https://github.com/user-attachments/assets/e8af99a9-6c90-4e58-98aa-3eb87c954d82)
+
 
 
 
