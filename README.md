@@ -22,4 +22,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Simple list of the process</h2>
 https://docs.google.com/document/d/1Vt_7J-pIDgak1rJRqa6X9Lf3RJO6yjFo/edit?usp=sharing&ouid=113230259462418910579&rtpof=true&sd=true
 
-![image](https://github.com/user-attachments/assets/911223a0-a957-422d-afca-da982a73f497)
+Step 1: Create 2 V=virtual machines in the Azure portal within one resource group. One virtual machine should be Windows 10 and the other one should be Linux (ubuntu 24.04). Make sure that both virtual machines are on the same network.
+![image](https://github.com/user-attachments/assets/8350af70-f914-403e-bee5-7bc6a88554f1)
+
