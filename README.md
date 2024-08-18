@@ -38,7 +38,10 @@ Step 4: In the Azure portal, open up the Network Security Group in the Ubuntu VM
 ![image](https://github.com/user-attachments/assets/0c24583d-32b3-477e-acb7-27c048cb0243)
 ![image](https://github.com/user-attachments/assets/e8af99a9-6c90-4e58-98aa-3eb87c954d82)
 
-Step 5: In the Azure portal, open up the Network Security Group in the Ubuntu VM and create an inbound security rule that disables incoming ICMP traffic. Go back to Powershell in VM-1. You should see Request timed out message within Powershell.
+Step 5: In the Azure portal, open up the Network Security Group in the Ubuntu VM and create an inbound security rule that disables incoming ICMP traffic. Go back to Powershell in VM-1. You should see Request timed out message within Powershell. Once you delete the inbound rule You should see the ICMP traffic again.
+
+![image](https://github.com/user-attachments/assets/d944a07a-6778-46ee-853d-ec01ee361982)
+
 
 
 
