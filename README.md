@@ -50,6 +50,13 @@ Step 7: Now filter for DNS traffic. From your Windows 10 VM within a command lin
 
 ![image](https://github.com/user-attachments/assets/a036bc76-8aa3-4f06-b811-7a663e56adb0)
 
+Step 8: Now filter for RDP traffic (tcp.port == 3389). Do you see the immediate non-stop spam of traffic? Why do you think it’s non-stop spamming vs only showing traffic when you do an activity? Take your time to think about it...
+
+Answer: because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
+
+![image](https://github.com/user-attachments/assets/29d9f730-c2a9-4038-a79f-7b387d8710c3)
+
+
 
 
 
