@@ -56,6 +56,10 @@ Answer: because the RDP (protocol) is constantly showing you a live stream from 
 
 ![image](https://github.com/user-attachments/assets/29d9f730-c2a9-4038-a79f-7b387d8710c3)
 
+Lab Cleanup (DON’T FORGET THIS IF YOU ARE USING THIS LAB TO PRACTICE BECAUSE RUNNING THESE VIRTUAL MACHINES IN AZURE COST MONEY. JUST TRYING TO SAVE YOU MONEY LOL):
+- Close your Remote Desktop connection
+- Delete the Resource Group(s) created at the beginning of this lab
+- Verify Resource Group Deletion
 
 
 
