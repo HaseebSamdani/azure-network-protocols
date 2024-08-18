@@ -25,3 +25,7 @@ Step 1: Create 2 virtual machines in the Azure portal within one resource group.
 
 ![image](https://github.com/user-attachments/assets/8350af70-f914-403e-bee5-7bc6a88554f1)
 
+Step 2:
+![image](https://github.com/user-attachments/assets/d95d2270-d706-43c3-9c33-cc96bb7eefa3)
+
+
