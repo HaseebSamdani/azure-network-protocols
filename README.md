@@ -21,7 +21,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Simple list and visualization of the process</h2>
 
-Step 1: Create 2 V=virtual machines in the Azure portal within one resource group. One virtual machine should be Windows 10 and the other one should be Linux (ubuntu 24.04). Make sure that both virtual machines are on the same network.
+Step 1: Create 2 virtual machines in the Azure portal within one resource group. One virtual machine should be Windows 10 and the other one should be Linux (ubuntu 24.04). Make sure that both virtual machines are on the same network.
 
 ![image](https://github.com/user-attachments/assets/8350af70-f914-403e-bee5-7bc6a88554f1)
 
