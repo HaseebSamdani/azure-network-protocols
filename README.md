@@ -45,6 +45,7 @@ Step 5: Now filter for SSH traffic. From your Windows 10 VM, “SSH into” your
 
 Step 6: Now filter for DHCP traffic from your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew). Observe the DHCP traffc appearing in WireShark
 
+![image](https://github.com/user-attachments/assets/0e5586d8-0e1a-4c9d-9824-cefe1484622c)
 
 Step 7: Now filter for DNS traffic. From your Windows 10 VM within a command line, use nslookup to see google.com IP addresses. Observe the DNS traffic being show in WireShark.
 
